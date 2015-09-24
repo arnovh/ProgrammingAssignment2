@@ -2,7 +2,7 @@
 ## recalculation of the inverse if requested multiple times
 
 
-## makeCacheMatrix creates a special "matrix" object that can cache its inverse in i.
+## makeCacheMatrix creates a special "matrix" object that can cache its inverse in its variable i.
 
 makeCacheMatrix <- function(x = matrix()) {
 
@@ -17,8 +17,6 @@ makeCacheMatrix <- function(x = matrix()) {
   list(set = set, get = get,
        setinverse = setinverse,
        getinverse = getinverse)
-  
-
 }
 
 
